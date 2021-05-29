@@ -1,0 +1,166 @@
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    height: 111px;
+    width: 70%;
+    margin: 50px auto 0px auto;
+
+    justify-content: space-between;
+
+}
+
+.h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+
+    color: #000000;
+}
+
+article>h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
+
+.box {
+    display: flex;
+
+    flex-wrap: wrap;
+    height: 860px;
+    width: 80%;
+    margin: 50px auto 0px auto;
+
+}
+
+figcaption {
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bbox {
+    border: 2px;
+   
+    min-height: 500px;
+    margin: 19px;
+}
+
+.inside {
+    display: flex;
+
+    flex-wrap: wrap;
+    height: 860px;
+    min-width: 50%;
+    margin: 50px auto 0px auto;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    flex-grow: 1;
+}
+
+figure img {
+    width: 250px;
+    height: 300px;
+    ;
+}
+
+@media only screen and (min-width: 1393px) {
+
+    .two,
+    .five {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+}
+
+@media only screen and (max-width: 1392px) {
+
+    .two,
+    .four,
+    .six {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    .bbox {
+
+        border: 2px;
+
+        min-height: 320px;
+        margin: 1px;
+    }
+
+    figure img {
+        width: 150px;
+        height: 200px;
+        ;
+    }
+
+}
+
+@media only screen and (max-width: 598px) {
+
+    .two,
+    .four,
+    .six {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    .bbox {
+        display: flex;
+        flex-shrink: 1;
+        border: 2px;
+        min-height: 320px;
+        margin: 1px;
+    }
+
+    figure img {
+        width: 150px;
+        height: 200px;
+        ;
+
+    }
+
+}
