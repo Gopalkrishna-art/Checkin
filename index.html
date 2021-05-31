@@ -1,11 +1,188 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge1</title>
-    <link rel="stylesheet" href="./project2.css">
+<style>
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    height: 111px;
+    width: 70%;
+    margin: 50px auto 0px auto;
+
+    justify-content: space-between;
+
+}
+
+.h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+
+    color: #000000;
+}
+
+article>h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+
+}
+
+.box {
+    display: flex;
+
+    flex-wrap: wrap;
+    height: 860px;
+    width: 80%;
+    margin: 50px auto 0px auto;
+
+}
+
+figcaption {
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bbox {
+    border: 2px;
+   
+    min-height: 500px;
+    margin: 19px;
+}
+
+.inside {
+    display: flex;
+
+    flex-wrap: wrap;
+    height: 860px;
+    min-width: 50%;
+    margin: 50px auto 0px auto;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    flex-grow: 1;
+}
+
+figure img {
+    width: 250px;
+    height: 300px;
+    ;
+}
+
+@media only screen and (min-width: 1393px) {
+
+    .two,
+    .five {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+}
+
+@media only screen and (max-width: 1392px) {
+
+    .two,
+    .four,
+    .six {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    .bbox {
+
+        border: 2px;
+
+        min-height: 320px;
+        margin: 1px;
+    }
+
+    figure img {
+        width: 150px;
+        height: 200px;
+        ;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .two,
+    .four,
+    .six {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    .bbox {
+        display: flex;
+        flex-shrink: 1;
+        border: 2px;
+        min-height: 320px;
+        margin: 1px;
+    }
+
+    figure img {
+        width: 150px;
+        height: 200px;
+        ;
+
+        
+    }
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six {
+        flex-grow: 0;
+    }
+}
+
+
+</style>
 </head>
 
 <body>
@@ -25,37 +202,37 @@
         <div class="bbox one">
             
           <figure>
-            <img src="./photo1.png" alt="rr.h">
+            <img src="../photo1.png" alt="rr.h">
        <figcaption>Bill Mahoney</figcaption>
         </figure>
         </div>
         <div class="bbox two">
             <figure>
-                <img src="./photo2.png" alt="rr.h">
+                <img src="../photo2.png" alt="rr.h">
            <figcaption>Saba Cabrera</figcaption>
             </figure>
         </div>
         <div class="bbox three">
             <figure>
-                <img src="./photo3.png" alt="rr.h">
+                <img src="../photo3.png" alt="rr.h">
            <figcaption>Sahea le</figcaption>
             </figure>
         </div>
         <div class="bbox four">
             <figure>
-                <img src="./photo4.png" alt="rr.h">
+                <img src="../photo4.png" alt="rr.h">
            <figcaption>Skylah Lu</figcaption>
             </figure>
         </div>
         <div class="bbox five">
             <figure>
-                <img src="./photo5.png" alt="rr.h">
+                <img src="../photo5.png" alt="rr.h">
            <figcaption>Griff Richards</figcaption>
             </figure>
         </div>
         <div class="bbox six">
             <figure>
-                <img src="./photo6.png" alt="rr.h">
+                <img src="../photo6.png" alt="rr.h">
            <figcaption>Stan Jonn</figcaption>
             </figure></div>
         </div>
@@ -66,4 +243,76 @@
 
 </html>
 
+-->
 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge1</title>
+<link rel="stylesheet" href="./project2.css">
+</head>
+<body>
+    <div class="all">
+    <div class="container1">
+        <h2>The creative crew</h2>
+        <article>
+            <h2>WHO WE ARE</h2>
+            <p>We are team of creative diverse. driven.,<br> innovative individuals
+                working in various<br> locations from world.
+            </p>
+        </article>
+    </div>
+    <div class="box">
+        <div class="bbox one">
+            
+            <figure>
+              <img src="./photo1.png" alt="rr.h">
+         <figcaption>Bill Mahoney</figcaption>
+          </figure>
+          </div>
+          <div class="bbox two">
+              <figure>
+                  <img src="./photo2.png" alt="rr.h">
+             <figcaption>Saba Cabrera</figcaption>
+              </figure>
+          </div>
+          <div class="bbox three">
+              <figure>
+                  <img src="./photo3.png" alt="rr.h">
+             <figcaption>Sahea le</figcaption>
+              </figure>
+          </div>
+          <div class="bbox four">
+              <figure>
+                  <img src="./photo4.png" alt="rr.h">
+             <figcaption>Skylah Lu</figcaption>
+              </figure>
+          </div>
+          <div class="bbox five">
+              <figure>
+                  <img src="./photo5.png" alt="rr.h">
+             <figcaption>Griff Richards</figcaption>
+              </figure>
+          </div>
+          <div class="bbox six">
+              <figure>
+                  <img src="./photo6.png" alt="rr.h">
+             <figcaption>Stan Jonn</figcaption>
+              </figure></div>
+        </div>
+    
+ 
+    
+    
+    </div>
+
+
+</div>
+</body>
+</html>
